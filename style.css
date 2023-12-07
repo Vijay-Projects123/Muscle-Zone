@@ -1,0 +1,82 @@
+body{
+    background-image: url("background.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home{
+    margin-left: 998px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: -69px;
+    color: white;
+}
+.location,.contactus{
+    margin-left: 32px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: -69px;
+    color: white;
+}
+#dropdown{
+    top: -69px;
+    margin-left: 32px;
+    position: relative;
+    color: white;
+}
+.location:hover,.contactus:hover,#dropdown:hover,.home:hover{
+    /* background-color: aqua; */
+    color: red;
+    text-decoration-line: underline;
+    
+}
+div p{
+    margin-top: 250px;
+    margin-left: 450px;
+    margin-right: 480px;
+    color: #5B9A8B;
+    text-align: center;
+    font-weight: 750px;
+    font-size: 18px;
+    /* background-color: #CEDEBD; */
+}
+div h1{
+    top: 230px;
+    text-align: center;
+    position: relative;
+    color: antiquewhite;
+}
+
+
+#vij1 {
+    color: #F94C10;
+    position: relative;
+    padding: 18px;
+}
+
+
+#vij{
+    color: #F94C10;
+}
+
+
+div button{
+    border: 3px ridge gray;
+    text-align: center;
+    padding: 3px 13px;
+    margin-left: 45%;
+    text-align: center;
+    border-radius: 15px;
+    
+    /* padding-left: 500px; */
+}
+div button:hover{
+    background-color: #F94C10;
+    color: white;
+    /* border-radius: 20%; */
+    /* margin-left: 150px; */
+    
+}

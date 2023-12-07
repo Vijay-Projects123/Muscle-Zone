@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join With Us</title>
+    <style>
+        #name{
+            text-align: center;
+            margin-left: 15px;
+            height: 22px;
+            width: 225px;
+        }
+        #mob{
+            text-align: center;
+            margin-left: 15px;
+            height: 22px;
+            width: 225px;
+        }
+        #email{
+            text-align: center;
+            margin-left: 15px;
+            height: 22px;
+            width: 225px;
+        }
+        #msg{
+            text-align: center;
+            margin-left: 15px;
+            height: 50px;
+            width: 225px;
+            padding-top: 19px;
+        }
+        label {
+            margin-right: 15px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        #sub{
+            height: 35px;
+            width: 85px;
+            background-color: black;
+            color: white;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+        #sub:hover{
+            height: 35px;
+            width: 85px;
+            background-color: white;
+            color: #29C7D9;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill Your Details </h1>
+    <form action="thank_you.html" method="post">
+
+        <table style="background-color: aqua;padding-left: 16px;padding: 25px 23px;">
+            <tr><td><label for="name">Name</label></td><td>:</td><td><input type="text" id="name" required placeholder="Enter your name" pattern="[a-zA-Z]"></td></tr>
+            <tr><td><label for="mob">Mobile Number</label></td><td>:</td><td><input type="number" id="mob" required size="29px" placeholder="Enter your number" pattern="[0-9]"></td></tr>
+            <tr><td><label for="email">Email</label></td><td>:</td><td><input id="email" type="email" placeholder="Enter your email" required></td></tr> 
+            <tr><td><label for="msg">Comments</label></td><td>:</td><td><textarea class="text" name="text" placeholder="Message" id="msg" cols="30" rows="10"></textarea></td></tr>
+        </table>
+        <input id="sub" type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
+
